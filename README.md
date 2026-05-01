@@ -6,6 +6,11 @@ The official `MetaTrader5` Python library is built around a tight integration wi
 ## Why I Built This
 To circumvent this hard constraint without renting a Windows VPS or dealing with complicated Wine setups, I engineered a **local HTTP bridge**. This architecture cleanly decouples the Python algorithmic engine from the MT5 execution terminal. 
 
+**Why this beats existing solutions:**
+* 🚫 **No Docker Overhead:** Many existing "Mac" solutions force you to run MT5 inside heavy Dockerized Wine containers. 
+* 🚫 **No Windows VPS:** Stop paying $30/mo just to test a script.
+* ⚡ **Ultra-Lightweight:** Runs natively on your local machine with near-zero latency.
+
 By treating MT5 as a dummy execution node and Python as the brain, Mac and Linux developers can freely build, test, and deploy complex institutional-grade Python algorithms locally. 
 
 ## File Breakdown
