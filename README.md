@@ -9,7 +9,7 @@ To circumvent this hard constraint without renting a Windows VPS or dealing with
 **Why this beats existing solutions:**
 * 🚫 **No Docker Overhead:** Many existing "Mac" solutions force you to run MT5 inside heavy Dockerized Wine containers. 
 * 🚫 **No Windows VPS:** Stop paying $30/mo just to test a script.
-* ⚡ **Ultra-Lightweight:** Runs natively on your local machine with near-zero latency.
+* ⚡ **Ultra-Lightweight:** Runs natively on your local machine with low-latency local HTTP calls (the EA polls every 500ms).
 
 By treating MT5 as a dummy execution node and Python as the brain, Mac and Linux developers can freely build, test, and deploy complex institutional-grade Python algorithms locally. 
 
