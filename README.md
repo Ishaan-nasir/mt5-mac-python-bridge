@@ -60,4 +60,4 @@ To allow the MQL5 EA to communicate with your local Python server, you must expl
    *(If you are running the Python server on a different local IP, add that instead).*
 8. Drag and drop the compiled `MT5_Web_Bridge` EA onto any active chart. Ensure the "Allow Auto Trading" (Algo Trading) button is enabled in the top toolbar.
 
-The bridge is now established. Your MT5 terminal will begin polling data to your Python server, and your Python algorithms can now execute trades instantly on your Mac.
+The bridge is now established. Your MT5 terminal will begin polling data to your Python server,and your Python algorithms can now execute trades instantly on your Mac.
